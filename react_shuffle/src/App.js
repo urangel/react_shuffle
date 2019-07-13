@@ -1,18 +1,13 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
-import CardContainer from "./components/CardContainer"
+import Navbar from "./components/Navbar.jsx";
+import CardContainer from "./components/CardContainer.jsx"
 import './App.css';
 
 function App() {
-
-  const state = {
-    someVal: null
-  }
-
   return (
     <div className="App">
-      <Navbar />
-      <CardContainer />
+      <Navbar/>
+      <CardContainer/>
     </div>
   );
 }
